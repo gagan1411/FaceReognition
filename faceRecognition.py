@@ -6,7 +6,7 @@ import numpy as np
 video_capture = cv2.VideoCapture(0)
 
 # Load a sample picture and learn how to recognize it.
-gagan_image = face_recognition.load_image_file("Gagandeep(new).jpg")
+gagan_image = face_recognition.load_image_file("Gagandeep.jpg")
 gagan_image_encoding = face_recognition.face_encodings(gagan_image)[0]
 
 
